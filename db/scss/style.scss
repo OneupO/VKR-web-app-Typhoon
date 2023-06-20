@@ -84,6 +84,7 @@ $enable-shadows: false;
         position: relative;
         background: $secondary;
     }
+    
 }
 
 .navbar-dark .navbar-nav .nav-link {
@@ -122,6 +123,7 @@ $enable-shadows: false;
         margin-top: -90px;
         z-index: 1;
     }
+    
 }
 
 .gym-class i {
@@ -159,6 +161,7 @@ $enable-shadows: false;
     .bmi {
       background: $secondary;
     }
+    
 }
   
 @media (min-width: 768px) {
@@ -175,6 +178,7 @@ $enable-shadows: false;
       background-size: cover;
       z-index: -1;
     }
+    
 }
 
 
@@ -205,6 +209,7 @@ $enable-shadows: false;
     .testimonial {
       background: $secondary;
     }
+
 }
   
 @media (min-width: 768px) {
@@ -221,31 +226,10 @@ $enable-shadows: false;
       background-size: cover;
       z-index: -1;
     }
+
 }
 
-.testimonial-text::before {
-    position: absolute;
-    content: "";
-    width: 0;
-    height: 0;
-    top: -20px;
-    left: 30px;
-    border: 10px solid;
-    border-color: transparent transparent #343a40 transparent;
-    z-index: 2;
-}
 
-.testimonial-text::after {
-    position: absolute;
-    content: "";
-    width: 0;
-    height: 0;
-    top: -24px;
-    left: 28px;
-    border: 12px solid;
-    border-color: transparent transparent #dee2e6 transparent;
-    z-index: 1;
-}
 
 .contact-form .help-block ul {
     margin: 0;
@@ -261,3 +245,4 @@ $enable-shadows: false;
   background-repeat: no-repeat;
   background-size: cover;
 }
+
